@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lato:wght@100&family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+ margin: auto 0;
+ text-align: center;
+ border-bottom: 3px solid grey;
+}
+
+header {
+    font-family: 'Caveat', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.AdContainer {
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.AdContainerDark {
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+button {
+    background-color: #0e3c7e;
+    border-radius: 5px;
+}
+
+button:active {
+    background-color: #1e60a9
+}
+
+button:disabled {
+    color: black;
+    background-color: rgb(161, 161, 161);
+}
+
+.fontButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.Votes {
+    margin-top: 10px;
+}
+
+.SupermanBar {
+    width: 0;
+    background-color: blue;
+    height: "0px";
+    border-radius: "12px"
+}
+
+.RockyRoadBar {
+    width: 0;
+    background-color: rgb(82, 47, 41) ;
+    height: "0px";
+    border-radius: "12px"
+}
+
+.VanillaBar {
+    width: 0;
+    background-color: rgb(211, 228, 152) ;
+    height: "0px";
+    border-radius: "12px"
+}
+
+/* .Support button {
+    background-color: red;
+} */
+
+@media screen and (min-width: 760px) {
+    body {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
